@@ -3,107 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Piyush Sharma</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to my Portfolio</h1>
-    <p>I want to make a Library which would make all my projects look good and consitent</p>
-
-    <h2>@Typography</h2>
-
-    <h1>This is biggest</h1>
-    <h2>This is second biggest</h2>
-    <p>This is normal text. This is free flowing and will wrap at the end lika a paragraph</p>
-    <small>relatively smaller text</small>
-
-    <hr>
-
-    <h2>@Container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@List</h2>
-    <h3>unordered list</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">IAMDEVELOPER</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
-    <header>
-        <img src="images/hero.svg" alt="">
-        <h1>heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" alt="">
+        <h1 class="hero-heading">Piyush Sharma the <span class="heading-inverted">Web Developer</span></h1>
     </header>
-
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Cloud Computing</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center"> 
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some tecnical and non non tecnical blogs. I like to document my journey of learning</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+            
+        </div>
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside footer</div>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+    <footer class="footer">
+        <div class="footer-header">Let's meet and colab</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/piyush-sharma-b495b4253/" target="_blank">LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Piyush2321" target="_blank">GitHub</a></li>
+            <li class="list-item-inline"><a class="link" href="/" target="_blank">Twitter</a></li>
         </ul>
     </footer>
-    
 
 </body>
 </html>
